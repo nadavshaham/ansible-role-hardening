@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Configure systemd logind
   become: true
   ansible.builtin.template:

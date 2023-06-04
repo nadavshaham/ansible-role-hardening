@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Set Debian ipv6.disable GRUB cmdline
   become: true
   ansible.builtin.lineinfile:

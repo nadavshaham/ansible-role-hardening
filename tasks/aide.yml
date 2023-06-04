@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Debian family AIDE installation
   become: true
   ansible.builtin.apt:

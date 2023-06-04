@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Disable kernel network modules
   become: true
   ansible.builtin.lineinfile:

@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Install local facts
   ansible.builtin.include_tasks: facts.yml
 

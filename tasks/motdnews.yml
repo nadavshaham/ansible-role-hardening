@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Stat /etc/default/motd-news
   ansible.builtin.stat:
     path: /etc/default/motd-news

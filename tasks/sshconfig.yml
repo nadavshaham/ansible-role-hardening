@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Get installed ssh version
   ansible.builtin.command:
     cmd: ssh -V

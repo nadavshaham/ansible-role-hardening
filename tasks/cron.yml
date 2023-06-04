@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Remove cron.deny and at.deny
   become: true
   ansible.builtin.file:

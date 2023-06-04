@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Remove users
   become: true
   ansible.builtin.user:

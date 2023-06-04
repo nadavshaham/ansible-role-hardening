@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Add configuration file for adduser and addgroup
   become: true
   ansible.builtin.template:

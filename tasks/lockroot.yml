@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Lock the root account
   become: true
   ansible.builtin.user:

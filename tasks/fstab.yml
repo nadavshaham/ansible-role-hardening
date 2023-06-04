@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Remove /tmp from fstab
   become: true
   ansible.posix.mount:

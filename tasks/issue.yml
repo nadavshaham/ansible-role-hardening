@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Add motd file
   become: true
   ansible.builtin.template:

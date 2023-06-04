@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Mount /proc with additional options
   become: true
   ansible.posix.mount:

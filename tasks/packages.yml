@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Merge package lists
   ansible.builtin.set_fact:
     packages_merged: "{{ packages_debian + packages_redhat + packages_ubuntu }}"

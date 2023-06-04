@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Create /boot/grub directory if efi boot
   become: true
   ansible.builtin.file:

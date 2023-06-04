@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Update subscription info on RHEL
   become: true
   ansible.builtin.command: subscription-manager refresh --force

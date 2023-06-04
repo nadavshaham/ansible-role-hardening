@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Create custom facts directory
   become: true
   ansible.builtin.file:

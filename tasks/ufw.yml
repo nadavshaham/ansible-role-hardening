@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Add the nf_conntrack module
   become: true
   community.general.modprobe:

@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Configure apt
   become: true
   ansible.builtin.lineinfile:

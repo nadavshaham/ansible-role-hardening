@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Stat postfix main.cf
   ansible.builtin.stat:
     path: /etc/postfix/main.cf

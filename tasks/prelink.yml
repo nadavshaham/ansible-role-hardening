@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Configure sysconfig prelink
   ansible.builtin.stat:
     path: /etc/sysconfig/prelink

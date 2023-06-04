@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Disable systemd ctrl-alt-del
   become: true
   ansible.builtin.systemd:

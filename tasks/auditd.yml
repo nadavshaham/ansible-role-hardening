@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Configure Debian auditd GRUB cmdline
   become: true
   ansible.builtin.lineinfile:

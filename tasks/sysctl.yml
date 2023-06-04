@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Set sysctl dev.tty.ldisc_autoload
   become: true
   ansible.posix.sysctl:

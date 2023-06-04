@@ -1,4 +1,7 @@
 ---
+- name: Delay
+  pause:
+    minutes: 1
 - name: Stat init.d/rc
   become: true
   ansible.builtin.stat:
